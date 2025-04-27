@@ -11,33 +11,20 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 
 ## PROGRAM
 ```
-#include <stdio.h>
-
-int main() {
-    int a = 44, b = 3;
-    int result = a << b;
-    printf("Result of left shift: %d\n", result);
-    return 0;
+#include<stdio.h>
+int main(){
+    int a=44;
+    a=a<<3;
+    printf("After Left Shift Operation value of a is:%d",a);
 }
 ```
 ## OUTPUT
 
-```
-Result of left shift: 352
-```
-
-
-
-
+![image](https://github.com/user-attachments/assets/ae10f31d-8151-4445-9cf7-d05ee5cfe387)
 
 ## RESULT
 Thus the program to perform the basic left shift operation for 44 integer number with 3 shifts has been executed successfully.
 
-
-
-
- 
- 
 
 
 # EX-17-TWO-NUMBERS-ARE-EQUAL-OR-NOT
@@ -57,37 +44,27 @@ Write a C Program to check whether the two numbers are equal or not using simple
 
 ## PROGRAM
 ```
-#include <stdio.h>
 
-int main() {
-    int num1, num2;
-
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-
-    if (num1 == num2) {
-        printf("Both are equal\n");
-    } else {
-        printf("Both are not equal\n");
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a==b)
+    {
+        printf("X is equal to Y");
     }
-
+    else
+    {
+        printf("X is NOT equal to Y");
+    }
     return 0;
 }
-```
 
+```
 ## OUTPUT
-```
-Enter first number: 5
-Enter second number: 5
-Both are equal
-
-Enter first number: 7
-Enter second number: 10
-Both are not equal
-```     
+![image](https://github.com/user-attachments/assets/078f62e0-bfa3-4c69-9c7d-ada049d40c9e)
+  
 ## RESULT
 
 Thus the program to check whether the two numbers are equal or not using simple if statement has been executed successfully
@@ -127,10 +104,8 @@ int main() {
 }
 ```
 ## OUTPUT
-```
-Enter a string: HELLO World!
-Lowercase string: hello world!
-```
+![image](https://github.com/user-attachments/assets/1505b989-a083-4636-a6c8-77058d3d9066)
+
 ## RESULT
 Thus the program to convert the given string into lowercase has been executed successfully
  
@@ -173,10 +148,8 @@ int main() {
 }
 ```
 ## OUTPUT
-``
-Enter a string: Hello World
-Total number of words: 2
-``
+![image](https://github.com/user-attachments/assets/1c057560-3bad-4a4a-b9f2-6bf47739dedf)
+
 ## RESULT
 Thus the program to count the total number of words in a given string using do While loop has been executed successfully
  
@@ -236,11 +209,8 @@ int main() {
 }
 ```
 ## OUTPUT
-```
-Enter the first string: hello world
-Enter the second string: hello world
-Strings are same
-```
+![image](https://github.com/user-attachments/assets/17529e1a-8949-4de8-932a-db72fe2e0905)
+
 
 ## RESULT
 Thus the C Program to compare two strings without using strcmp() has been executed successfully.
